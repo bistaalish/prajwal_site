@@ -29,6 +29,7 @@ body {
     }
     .company-intro {
         flex-direction: column;
+        
     }
     .content .company-intro {
         display: flex;

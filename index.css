@@ -227,7 +227,7 @@ body {
     width: 100vw;
 }
 .contact-image{
-    max-width: 50vw;
+    max-width: 30vw;
     object-fit: cover;
     height: auto;
 }
@@ -260,8 +260,17 @@ body {
 	} */
     .content {
         text-align: center; /* Center text for smaller screens */
-        bottom: 5vh; /* Adjust vertical placement for smaller screens */
-        left: 0;
+        margin: 2px;
+        display: flex;
+        top: 15rem;
+        width: 80%;
+        flex-direction: row;
+    }
+    .content .places-list {
+        font-size: 1rem;
+    }
+    .content .intro-text {
+        font-size: 1.5rem;
     }
 
     .places-list ul {
