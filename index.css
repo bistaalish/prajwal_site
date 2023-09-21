@@ -247,8 +247,8 @@ body {
 /* Apply specific styles for screens with a maximum width of 768px (typical smartphones) */
 @media screen and (max-width: 768px) {
 	body {
-		margin: 5px;
-		padding: 5px;
+		margin: 0px;
+		padding: 0px;
 	}
     .fullscreen-video {
         height: 100vh; /* Adjust height for smaller screens */
@@ -258,20 +258,23 @@ body {
 		justify-content: space-between;
 		align-content: space-between;
 	} */
-    .content {
+    /* .content {
         text-align: center; /* Center text for smaller screens */
-        margin: 2px;
+        /* margin: 2px;
         display: flex;
         top: 15rem;
         width: 80%;
         flex-direction: row;
-    }
+    } */
     .content .places-list {
         font-size: 1rem;
     }
     .content .intro-text {
-        font-size: 1.5rem;
-    }
+        font-size: 1rem;
+        font-weight: 700;
+        top: 20px;
+        padding-top: 20px;
+    } */
 
     .places-list ul {
         text-align: center; /* Center the list items */
@@ -282,7 +285,13 @@ body {
     }
 
     .intro-text {
-        font-size: 36px; /* Reduce font size for smaller screens */
+        font-size: 0.5rem; /* Reduce font size for smaller screens */
+    }
+
+    .intro-text span {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
     }
 
     .about-container {
@@ -328,5 +337,8 @@ body {
         &:before { 
             width: 100%;
         }
+    }
+    video {
+        width: 100%;
     }
 }
