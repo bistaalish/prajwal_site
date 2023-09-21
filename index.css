@@ -266,12 +266,15 @@ body {
         width: 80%;
         flex-direction: row;
     } */
+    .content {
+        top: 20rem
+    }
     .content .places-list {
-        font-size: 1rem;
+        font-size:1rem;
     }
     .content .intro-text {
-        font-size: 1.1rem;
-        font-weight: 700;
+        font-size: 1.3rem;
+        /* font-weight: 700; */
         /* top: 20px; */
         /* padding-top: 20px; */
     } 
@@ -281,7 +284,7 @@ body {
     }
 
     .places-list li {
-        font-size: 0.9rem; /* Reduce font size for smaller screens */
+        font-size: 0.5rem; /* Reduce font size for smaller screens */
     }
 
     .intro-text {
