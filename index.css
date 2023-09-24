@@ -245,7 +245,7 @@ body {
 /* Default styles for all screen sizes */
 /* Default styles for all screen sizes */
 
-@media screen  and (max-width: 700px) {
+@media screen  and (max-width: 786px) {
     .intro-text {
         
         font-size: 2.5rem;
@@ -253,44 +253,21 @@ body {
     .contact-image {
         max-width: 30vh;
     }
-}
-
-/* @media screen and (max-width: 412px) {
-    .intro-text {
-        font-size: 1.2rem;
-    }
-} */
-
-/* Apply specific styles for screens with a maximum width of 768px (typical smartphones) */
-@media screen and (max-width: 500px) {
-	body {
+    body {
 		margin: 0px;
 		padding: 0px;
 	}
     .fullscreen-video {
         height: 100vh; /* Adjust height for smaller screens */
     }
-	/* .navbar-container {
-		display: flex;
-		justify-content: space-between;
-		align-content: space-between;
-	} */
-    /* .content {
-        text-align: center; /* Center text for smaller screens */
-        /* margin: 2px;
-        display: flex;
-        top: 15rem;
-        width: 80%;
-        flex-direction: row;
-    } */
     .content {
-        top: 30rem
+        top: 33rem
     }
     .content .places-list {
         font-size:1rem;
     }
     .content .intro-text {
-        font-size: 1.1rem;
+        font-size: 2rem;
         /* font-weight: 700; */
         /* top: 20px; */
         /* padding-top: 20px; */
@@ -301,7 +278,7 @@ body {
     }
 
     .places-list li {
-        font-size: 0.5rem; /* Reduce font size for smaller screens */
+        font-size: 1.2rem; /* Reduce font size for smaller screens */
     }
 
     .intro-text {
@@ -357,8 +334,176 @@ body {
         margin-right: 40px;
     }
  
-    }
     video {
         width: 100%;
     }
+    
+}
+
+
+/* Apply specific styles for screens with a maximum width of 768px (typical smartphones) */
+@media screen and (max-width: 650px) {
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+    .fullscreen-video {
+        height: 100vh; /* Adjust height for smaller screens */
+    }
+
+    .content {
+        top: 33rem
+    }
+    .content .places-list {
+        font-size:1rem;
+    }
+    .content .intro-text {
+        font-size: 1.5rem;
+        /* font-weight: 700; */
+        /* top: 20px; */
+        /* padding-top: 20px; */
+    } 
+
+    .places-list ul {
+        text-align: center; /* Center the list items */
+    }
+
+    .places-list li {
+        font-size: 0.9rem; /* Reduce font size for smaller screens */
+    }
+
+
+    .intro-text span {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .about-container {
+        left: 10%; /* Adjust left placement for smaller screens */
+        top: 35%; /* Adjust top placement for smaller screens */
+        right: 10%; /* Adjust right placement for smaller screens */
+    }
+
+    .about-paragraph {
+        font-size: 24px; /* Reduce font size for smaller screens */
+    }
+
+    .contact-us {
+        flex-direction: column; /* Stack the elements in a column for smaller screens */
+        top: 190vh;
+        
+    }
+
+    .contact-image {
+        max-width: 100%; /* Ensure the image fits within the container */
+        height: auto;
+        
+        
+    }
+
+    .touch {
+        top: 200vh;
+        font-size: 20px; /* Reduce font size for smaller screens */
+        padding: 0 5%; /* Add some horizontal padding for smaller screens */
+    }
+    .touch {
+        margin: 0px;
+        width: 100%;
+        padding: 0 20px 20px 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .touch p {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-right: 40px;
+    }
+ 
+    
+}
+
+@media screen and (max-width: 465px) {
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+    .fullscreen-video {
+        height: 100vh; /* Adjust height for smaller screens */
+    }
+
+    .content {
+        top: 33rem
+    }
+    .content .places-list {
+        font-size:1rem;
+    }
+    .content .intro-text {
+        font-size: 1.2rem;
+        /* font-weight: 700; */
+        /* top: 20px; */
+        /* padding-top: 20px; */
+    } 
+
+    .places-list ul {
+        text-align: center; /* Center the list items */
+    }
+
+    .places-list li {
+        font-size: 0.7rem; /* Reduce font size for smaller screens */
+    }
+
+
+    .intro-text span {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .about-container {
+        left: 10%; /* Adjust left placement for smaller screens */
+        top: 35%; /* Adjust top placement for smaller screens */
+        right: 10%; /* Adjust right placement for smaller screens */
+    }
+
+    .about-paragraph {
+        font-size: 24px; /* Reduce font size for smaller screens */
+    }
+
+    .contact-us {
+        flex-direction: column; /* Stack the elements in a column for smaller screens */
+        top: 190vh;
+        
+    }
+
+    .contact-image {
+        max-width: 100%; /* Ensure the image fits within the container */
+        height: auto;
+        
+        
+    }
+
+    .touch {
+        top: 200vh;
+        font-size: 20px; /* Reduce font size for smaller screens */
+        padding: 0 5%; /* Add some horizontal padding for smaller screens */
+    }
+    .touch {
+        margin: 0px;
+        width: 100%;
+        padding: 0 20px 20px 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .touch p {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-right: 40px;
+    }
+ 
+    
 }
