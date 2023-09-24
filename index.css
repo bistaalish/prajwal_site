@@ -245,21 +245,24 @@ body {
 /* Default styles for all screen sizes */
 /* Default styles for all screen sizes */
 
-/* @media screen  and (max-width: 900px) {
+@media screen  and (max-width: 900px) {
     .intro-text {
         
         font-size: 2.5rem;
     }
-} */
-
-@media screen and (max-width: 412px) {
-    .intro-text {
-        font-size: 1.2rem;
+    .contact-image {
+        max-width: 30vh;
     }
 }
 
+/* @media screen and (max-width: 412px) {
+    .intro-text {
+        font-size: 1.2rem;
+    }
+} */
+
 /* Apply specific styles for screens with a maximum width of 768px (typical smartphones) */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 480px) {
 	body {
 		margin: 0px;
 		padding: 0px;
@@ -281,7 +284,7 @@ body {
         flex-direction: row;
     } */
     .content {
-        top: 25rem
+        top: 40rem
     }
     .content .places-list {
         font-size:1rem;
@@ -323,12 +326,15 @@ body {
 
     .contact-us {
         flex-direction: column; /* Stack the elements in a column for smaller screens */
-        top: 195vh;
+        top: 190vh;
+        
     }
 
     .contact-image {
         max-width: 100%; /* Ensure the image fits within the container */
         height: auto;
+        
+        
     }
 
     .touch {
@@ -339,7 +345,7 @@ body {
     .touch {
         margin: 0px;
         width: 100%;
-        padding: 20px;
+        padding: 0 20px 20px 20px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -350,10 +356,7 @@ body {
         width: 100%;
         margin-right: 40px;
     }
-    .explore {
-        &:before { 
-            width: 100%;
-        }
+ 
     }
     video {
         width: 100%;
