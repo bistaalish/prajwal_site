@@ -54,7 +54,6 @@ body {
 }
 
 .places-list li {
-    font-size: 18px;
     font-size: 12px;
     color: white;
     font-family: 'tiempos';
@@ -62,7 +61,7 @@ body {
 
 /* Style for the introductory text */
 .intro-text {
-    font-size: 48px;
+    font-size: 32px;
     /* font-family: PP Neue Montreal Book; */
     font-family: 'Manrope', sans-serif; 
     color: white;
@@ -269,13 +268,13 @@ body {
         flex-direction: row;
     } */
     .content {
-        top: 20rem
+        top: 25rem
     }
     .content .places-list {
         font-size:1rem;
     }
     .content .intro-text {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         /* font-weight: 700; */
         /* top: 20px; */
         /* padding-top: 20px; */
