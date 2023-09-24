@@ -245,8 +245,21 @@ body {
 /* Default styles for all screen sizes */
 /* Default styles for all screen sizes */
 
+/* @media screen  and (max-width: 900px) {
+    .intro-text {
+        
+        font-size: 2.5rem;
+    }
+} */
+
+@media screen and (max-width: 412px) {
+    .intro-text {
+        font-size: 1.2rem;
+    }
+}
+
 /* Apply specific styles for screens with a maximum width of 768px (typical smartphones) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 390px) {
 	body {
 		margin: 0px;
 		padding: 0px;
