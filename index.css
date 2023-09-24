@@ -262,7 +262,7 @@ body {
 } */
 
 /* Apply specific styles for screens with a maximum width of 768px (typical smartphones) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	body {
 		margin: 0px;
 		padding: 0px;
