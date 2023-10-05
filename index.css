@@ -480,7 +480,7 @@ body {
 
     .contact-image {
         max-width: 100%; /* Ensure the image fits within the container */
-        height: auto;
+        height: 30vh;
         
         
     }
